@@ -7,8 +7,8 @@ if you want to add loading progressbar,just use
 #### my_webview.setLoading(ProgressBar pb)
 but if you want to add loadingDialog instead of loading progressbar,just use 
 #### my_webview.setLoadingDialog(ProgressDialog pd)
+if you want to set webview title,use
 #### my_webview.setMyTitle(TextView tv)
-can set webview title on this component
 if you want to handle error situation,just like 
 '''my_webView.setErrorWebViewListener(new MyWebView.IErrorWebViewListener() {
             @Override
