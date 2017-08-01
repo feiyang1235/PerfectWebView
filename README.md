@@ -4,12 +4,9 @@
 easy to use webview
 
 # just use MyWebView replace your Webview. 
-if you want to add loading progressbar,just use 
-#### my_webview.setLoading(ProgressBar pb)
-but if you want to add loadingDialog instead of loading progressbar,just use 
-#### my_webview.setLoadingDialog(ProgressDialog pd)
-if you want to set webview title,use
-#### my_webview.setMyTitle(TextView tv)
+if you want to add loading progressbar,just use ``` my_webview.setLoading(ProgressBar pb) ```
+but if you want to add loadingDialog instead of loading progressbar,just use ```my_webview.setLoadingDialog(ProgressDialog pd) ```replace
+if you want to set webview title,use ``` my_webview.setMyTitle(TextView tv) ```
 if you want to handle error situation,just like
 
 ``` my_webView.setErrorWebViewListener(new MyWebView.IErrorWebViewListener() {
