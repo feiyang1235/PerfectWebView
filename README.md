@@ -10,9 +10,10 @@ but if you want to add loadingDialog instead of loading progressbar,just use
 #### my_webview.setLoadingDialog(ProgressDialog pd)
 if you want to set webview title,use
 #### my_webview.setMyTitle(TextView tv)
-if you want to handle error situation,just like 
-''' 
-my_webView.setErrorWebViewListener(new MyWebView.IErrorWebViewListener() {
+if you want to handle error situation,just like
+
+'''
+          my_webView.setErrorWebViewListener(new MyWebView.IErrorWebViewListener() {
             @Override
             public void onNotNetError() {
                 Log.i(TAG, "onNotNetError: ");
