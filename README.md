@@ -20,10 +20,10 @@ if you want to handle error situation,just like
             public void onOtherError(int errorCode, String description, String failingUrl) {
                 switch (errorCode){
                     // Not found
-                    case 404:
+                    case ERROR_URL_NAME:
                         break;
                     // Internal server error
-                    case 500:
+                    case ERROR_NAME_SOLVE:
                         break;
                     default:
                         break;
