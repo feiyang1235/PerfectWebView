@@ -12,8 +12,7 @@ if you want to set webview title,use
 #### my_webview.setMyTitle(TextView tv)
 if you want to handle error situation,just like
 
-'''
-          my_webView.setErrorWebViewListener(new MyWebView.IErrorWebViewListener() {
+'''my_webView.setErrorWebViewListener(new MyWebView.IErrorWebViewListener() {
             @Override
             public void onNotNetError() {
                 Log.i(TAG, "onNotNetError: ");
